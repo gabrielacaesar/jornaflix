@@ -1,10 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Source+Code+Pro');
+* {
+	background-color: #3A3B40 !important;
+
+}
+
+body {
+	color: #F1F1F1 !important;
+	font-family: helvetica;
+}
+
+
 header #title {
-	font-size: 50px;
+	font-size: 60px;
 	text-align: center;
+	color: #D0552F !important;
+	font-weight: 700;
+	font-family: 'IBM Plex Mono' !important;
+	padding: 15px 0px;
 }
 
 header a:hover {
-	background-color: yellow;
+	background-color: #D0552F !important;
+	padding: 10px 10px;
 }
 
 ul {
@@ -13,13 +30,19 @@ ul {
 
 a {
 	text-decoration: none !important;
-	color: black !important;
+	color: #F1F1F1 !important;
+	font-family: 'Source Code Pro', monospace !important;
 }
 
 .col-md-4 img {
 	width: 300px;
 	height: 150px;
 	padding-right: 10px;
+}
+
+.col-md-4 a img:hover {
+	background-color: #D0552F !important;
+	padding: 5px 5px;
 }
 
 .container {
@@ -35,6 +58,7 @@ a {
 	font-weight: 700px;
 	padding-left: 70px;
 	padding-top: 40px;
+	font-family: 'Source Code Pro', monospace !important;
 
 }
 
@@ -42,4 +66,9 @@ footer .col-md-4 {
 	text-align: right;
 	padding-top: 70px;
 	padding-bottom: 20px;
+}
+
+footer a:hover {
+	background-color: #D0552F !important;
+	padding: 10px 10px;
 }
